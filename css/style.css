@@ -28,7 +28,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   color: #e02c6dde;
-  transition: 0.3 ease;
+  transition: 0.3s ease;
 }
 .stn:hover {
   color: #3a3a3a;
@@ -113,7 +113,10 @@ main {
   color: #787885;
   line-height: 20px;
 }
-/* video area design */
+/* video area design */ 
+.video-area video {
+  width: 100%;
+}
 .video-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -128,26 +131,26 @@ main {
   margin-top: 0px;
 }
 /* fotter area design */
-.copy-right-area  h5 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    margin-bottom: 0;  
+.copy-right-area h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0;
 }
 .copy-right-area.text-center P {
-    font-size: 14px;
-    font-weight: bold;
-    color: #D9DBE1;
-    line-height: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #d9dbe1;
+  line-height: 25px;
 }
 .socials-item a i {
-    background-color: #4a449b4d;
-    color: #FFF;
-    padding: 15px;
-    border-radius: 50%;
-    margin-right: 15px;
-    transition: 0.3s ease;
+  background-color: #4a449b4d;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  margin-right: 15px;
+  transition: 0.3s ease;
 }
-.socials-item a i:hover{
-    background-color: #000;
+.socials-item a i:hover {
+  background-color: #000;
 }
