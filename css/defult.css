@@ -54,6 +54,9 @@
 .text-center{
     text-align: center;
 }
+.text-right{
+    text-align: right;
+}
 /* img design */
 .img-fulid{
     width: 100%;
@@ -61,5 +64,12 @@
 }
 .container{
     padding: 0px 100px;
+}
+/* float */
+.f-right{
+    float: right;
+}
+.f-left{
+    float: left;
 }
 
