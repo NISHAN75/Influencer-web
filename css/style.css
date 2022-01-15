@@ -19,7 +19,6 @@ a{
   font-weight: 700;
   border-radius: 30px;
   transition: 0.3s ease;
-  margin-right: 10px;
 }
 .btn:hover {
   background-color: #0a0826;
