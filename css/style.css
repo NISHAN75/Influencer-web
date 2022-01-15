@@ -9,22 +9,23 @@ body {
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 .btn {
   background-color: #e02c6d;
   padding: 20px 45px;
   color: #fff;
-  text-decoration: none;
   font-weight: 700;
   border-radius: 30px;
   transition: 0.3s ease;
   margin-right: 10px;
 }
 .btn:hover {
-  background-color: #d22779;
-  color: #3a3a3a;
+  background-color: #0a0826;
+  color: #ffffff;
 }
 .stn {
-  text-decoration: none;
   font-size: 16px;
   font-weight: 700;
   color: #e02c6dde;
@@ -68,6 +69,7 @@ main {
   font-weight: 600;
   color: #3a3a3a;
 }
+
 .popular-inner-area {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -80,6 +82,10 @@ main {
   box-shadow: 3px 2px 22px 1px rgb(0 0 0 / 24%);
   padding: 25px 20px;
   border-radius: 15px;
+}
+.popular-iteam:hover {
+  margin-top: -20px;
+  box-shadow: 3px 2px 30px 1px rgb(0 0 0 / 24%);
 }
 .popular-info h5 {
   font-size: 28px;
