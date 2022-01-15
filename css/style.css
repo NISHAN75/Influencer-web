@@ -8,7 +8,7 @@ body{
     margin: 0;
     padding: 0;
 }
-a.btn {
+.btn {
     background-color: #E02C6D;
     padding: 20px 45px;
     color: #fff;

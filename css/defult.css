@@ -47,7 +47,9 @@
     margin-bottom: 20px;
 }
 /* margin-left */
-
+.ml-10{
+    margin-left: 10px;
+}
 /* text design */
 .text-center{
     text-align: center;
